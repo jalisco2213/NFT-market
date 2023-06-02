@@ -1,0 +1,25 @@
+.btn__design {
+  width: 180px;
+  height: 60px;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #E025CE;
+  outline: none;
+  transition: .3s ease-in-out;
+
+  &:hover {
+    transition: .3s ease-in-out;
+    background: #BD24E6;
+  }
+
+  & span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+}

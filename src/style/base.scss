@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+header,
+footer,
+nav,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: inherit;
+  line-height: 1;
+  font-family: 'Outfit', sans-serif;
+}
+
+button {
+  cursor: pointer;
+  box-shadow: 0 0 20px 10px #E025CE4D;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header,
+.crosschain,
+.homema {
+  background-image: url(/assets/background/dicsover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.cryptoechange {
+  background: url(/assets/background/crypto.jpg);
+  background-size: 100% 100%;
+}
+
+main {
+  background-image: url(/assets/background/about.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.footer {
+  background-image: url(/assets/background/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
